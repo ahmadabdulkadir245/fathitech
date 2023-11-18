@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "poppins": "var(--poppins-font)",
+        "body": "var(--body-font)",
+        "changa": "var(--changa-font)",
+        "primary": "var(--primary-font)",
+        "iceland": "var(--iceland-font)",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
